@@ -31,19 +31,6 @@ namespace DatingApp.Migrations
                     b.ToTable("Valueses");
                 });
 
-            modelBuilder.Entity("DatingApp.Models.Nameses", b =>
-            {
-                b.Property<int>("Id")
-                    .ValueGeneratedOnAdd()
-                    .HasColumnType("INTEGER");
-
-                b.Property<int>("Name")
-                    .HasColumnType("STRING");
-
-                b.HasKey("Id");
-
-                b.ToTable("Nameses");
-            });
 #pragma warning restore 612, 618
         }
     }
